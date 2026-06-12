@@ -27,3 +27,14 @@ python3 SGD.py
 ```
 
 The chart is saved as `sgd_neer_dashboard.png`.
+
+## Static deployment
+
+The static deployment bundle lives in `public-site/`.
+
+Cloudflare Pages settings:
+
+- Build command: none
+- Build output directory: `public-site`
+
+The public site serves `index.html`, `sgd_neer_dashboard.png`, and `Preview.png`.
